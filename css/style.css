@@ -1329,7 +1329,7 @@
 .reviews-section {
     padding: 40px 0;
     background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
-                  url('./images/back2.png');
+                  url('images/back2.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
