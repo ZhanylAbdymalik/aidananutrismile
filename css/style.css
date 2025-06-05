@@ -1331,7 +1331,10 @@
 .reviews-section {
     padding: 40px 0;
     background-image: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
-                url('./images/back2.png') center/cover no-repeat;
+                  url('./images/back2.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
     border-radius: 20px;
     margin-top: 40px;
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.15);
@@ -1378,8 +1381,8 @@
 .coverflow-nav {
     background: transparent;
     border: none;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     display: flex;
     align-items: center;
@@ -1404,7 +1407,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 450px; /* уменьшено по вертикали */
+    height: 550px; /* уменьшено по вертикали */
     width: 100%;
     margin: 0 20px;
     transform-style: preserve-3d;
