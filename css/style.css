@@ -1328,11 +1328,10 @@
     margin-bottom: 15px;
 }
 
-
 .reviews-section {
     padding: 40px 0;
     background: linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)),
-            url('./images/back2.png') center/cover no-repeat;
+                url('./images/back2.png') center/cover no-repeat;
     border-radius: 20px;
     margin-top: 40px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
