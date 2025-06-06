@@ -432,8 +432,4 @@ document.addEventListener('DOMContentLoaded', function() {
 
     initCoverflow();
 });
-if (navigator.onLine) {
-  console.log("Интернет есть, сайт загружен.");
-} else {
-  console.log("Нет интернета, сайт может быть не загружен.");
-}
+
